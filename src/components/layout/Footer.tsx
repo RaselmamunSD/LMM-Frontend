@@ -213,9 +213,11 @@ export function Footer({ locale }: FooterProps) {
             <span className="flex items-center gap-1">
               <span>Developed by</span>
               <a
-                href="tel:01738060329"
+                href="https://higzendev.com/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="font-bold text-[#087A35] dark:text-[#4ADE80] hover:underline"
-                title="Call HigzenDev: 01738060329"
+                title="Visit HigzenDev Website"
               >
                 HigzenDev
               </a>
