@@ -299,11 +299,15 @@ export function Header({ locale }: HeaderProps) {
 
             {/* Controls & Actions */}
             <div className="flex items-center gap-2 sm:gap-2.5">
-              {/* Language Switcher */}
-              <LanguageSwitcher currentLocale={locale} />
+              {/* Language Switcher - Hidden on mobile phones, accessible inside drawer menu */}
+              <div className="hidden md:flex items-center">
+                <LanguageSwitcher currentLocale={locale} />
+              </div>
 
-              {/* Theme Toggle */}
-              <ThemeToggle />
+              {/* Theme Toggle - Hidden on mobile phones, accessible inside drawer menu */}
+              <div className="hidden md:flex items-center">
+                <ThemeToggle />
+              </div>
 
               {/* Mobile Menu Button */}
               <button

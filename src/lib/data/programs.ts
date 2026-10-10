@@ -5,7 +5,7 @@ export const academicPrograms: AcademicProgram[] = [
     id: 'play-group',
     slug: 'play-group',
     name: {
-      bn: 'প্লে গ্রুপ (Play Group)',
+      bn: 'প্লে গ্রুপ',
       en: 'Play Group',
     },
     classLevel: {
@@ -82,7 +82,7 @@ export const academicPrograms: AcademicProgram[] = [
     id: 'nursery',
     slug: 'nursery',
     name: {
-      bn: 'নার্সারি (Nursery)',
+      bn: 'নার্সারি',
       en: 'Nursery',
     },
     classLevel: {
@@ -159,7 +159,7 @@ export const academicPrograms: AcademicProgram[] = [
     id: 'class-one',
     slug: 'class-one',
     name: {
-      bn: 'প্রথম শ্রেণি (Class One)',
+      bn: 'প্রথম শ্রেণি',
       en: 'Class One (Grade 1)',
     },
     classLevel: {
@@ -232,7 +232,7 @@ export const academicPrograms: AcademicProgram[] = [
     id: 'class-two',
     slug: 'class-two',
     name: {
-      bn: 'দ্বিতীয় শ্রেণি (Class Two)',
+      bn: 'দ্বিতীয় শ্রেণি',
       en: 'Class Two (Grade 2)',
     },
     classLevel: {
@@ -305,7 +305,7 @@ export const academicPrograms: AcademicProgram[] = [
     id: 'class-three',
     slug: 'class-three',
     name: {
-      bn: 'তৃতীয় শ্রেণি (Class Three)',
+      bn: 'তৃতীয় শ্রেণি',
       en: 'Class Three (Grade 3)',
     },
     classLevel: {
@@ -370,7 +370,7 @@ export const academicPrograms: AcademicProgram[] = [
     id: 'class-four',
     slug: 'class-four',
     name: {
-      bn: 'চতুর্থ শ্রেণি (Class Four)',
+      bn: 'চতুর্থ শ্রেণি',
       en: 'Class Four (Grade 4)',
     },
     classLevel: {
@@ -435,7 +435,7 @@ export const academicPrograms: AcademicProgram[] = [
     id: 'class-five',
     slug: 'class-five',
     name: {
-      bn: 'পঞ্চম শ্রেণি (Class Five)',
+      bn: 'পঞ্চম শ্রেণি',
       en: 'Class Five (Grade 5)',
     },
     classLevel: {

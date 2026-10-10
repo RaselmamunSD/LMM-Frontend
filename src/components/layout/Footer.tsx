@@ -46,9 +46,9 @@ export function Footer({ locale }: FooterProps) {
       <div className="absolute inset-0 islamic-pattern-bg opacity-[0.04] dark:opacity-[0.05] pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-8 pb-12 border-b border-[#C3E6CF] dark:border-[#193B26]">
+        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8 lg:gap-8 pb-12 border-b border-[#C3E6CF] dark:border-[#193B26]">
           {/* Column 1: Institution Info & Logo */}
-          <div className="space-y-4">
+          <div className="col-span-2 md:col-span-1 space-y-4">
             <Link
               href={`/${locale}`}
               className="flex items-center gap-3 group focus:outline-none"
@@ -115,19 +115,19 @@ export function Footer({ locale }: FooterProps) {
           </div>
 
           {/* Column 2: Quick Links */}
-          <div>
-            <h4 className="text-sm font-bold text-[#0B2917] dark:text-white uppercase tracking-wider mb-4 flex items-center gap-2">
-              <IslamicStar size={14} className="text-[#087A35] dark:text-[#4ADE80]" />
+          <div className="col-span-1 space-y-3">
+            <h4 className="text-xs sm:text-sm font-bold text-[#0B2917] dark:text-white uppercase tracking-wider mb-3 sm:mb-4 flex items-center gap-1.5 sm:gap-2">
+              <IslamicStar size={14} className="text-[#087A35] dark:text-[#4ADE80] shrink-0" />
               <span>{locale === 'bn' ? 'প্রয়োজনীয় পেইজসমূহ' : 'Important Pages'}</span>
             </h4>
-            <ul className="space-y-2 text-sm">
+            <ul className="space-y-2 text-xs sm:text-sm">
               {quickLinks.map((link) => (
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-[#385E46] dark:text-[#A7C8B3] hover:text-[#087A35] dark:hover:text-white transition-colors flex items-center gap-1.5"
+                    className="text-[#385E46] dark:text-[#A7C8B3] hover:text-[#087A35] dark:hover:text-white transition-colors flex items-start gap-1.5 leading-snug"
                   >
-                    <span className="text-[#087A35] dark:text-[#4ADE80] text-xs font-bold">›</span>
+                    <span className="text-[#087A35] dark:text-[#4ADE80] text-xs font-bold shrink-0 mt-0.5">›</span>
                     <span>{link.label}</span>
                   </Link>
                 </li>
@@ -136,19 +136,19 @@ export function Footer({ locale }: FooterProps) {
           </div>
 
           {/* Column 3: Academic Programs */}
-          <div>
-            <h4 className="text-sm font-bold text-[#0B2917] dark:text-white uppercase tracking-wider mb-4 flex items-center gap-2">
-              <GraduationCap className="w-4 h-4 text-[#087A35] dark:text-[#4ADE80]" />
+          <div className="col-span-1 space-y-3">
+            <h4 className="text-xs sm:text-sm font-bold text-[#0B2917] dark:text-white uppercase tracking-wider mb-3 sm:mb-4 flex items-center gap-1.5 sm:gap-2">
+              <GraduationCap className="w-4 h-4 text-[#087A35] dark:text-[#4ADE80] shrink-0" />
               <span>{locale === 'bn' ? 'একাডেমিক ক্লাস' : 'Academic Classes'}</span>
             </h4>
-            <ul className="space-y-2 text-sm">
+            <ul className="space-y-2 text-xs sm:text-sm">
               {academicPrograms.map((prog) => (
                 <li key={prog.id}>
                   <Link
                     href={`/${locale}/academic-programs/${prog.slug}`}
-                    className="text-[#385E46] dark:text-[#A7C8B3] hover:text-[#087A35] dark:hover:text-white transition-colors flex items-center gap-1.5"
+                    className="text-[#385E46] dark:text-[#A7C8B3] hover:text-[#087A35] dark:hover:text-white transition-colors flex items-start gap-1.5 leading-snug"
                   >
-                    <span className="text-[#087A35] dark:text-[#4ADE80] text-xs">●</span>
+                    <span className="text-[#087A35] dark:text-[#4ADE80] text-[10px] shrink-0 mt-1">●</span>
                     <span>{prog.name[locale]}</span>
                   </Link>
                 </li>
@@ -156,7 +156,7 @@ export function Footer({ locale }: FooterProps) {
               <li className="pt-2">
                 <Link
                   href={`/${locale}/admission`}
-                  className="inline-flex items-center gap-1 text-xs font-bold text-[#087A35] dark:text-[#4ADE80] hover:underline"
+                  className="inline-flex items-center gap-1 text-[11px] sm:text-xs font-bold text-[#087A35] dark:text-[#4ADE80] hover:underline"
                 >
                   <span>{locale === 'bn' ? 'অনলাইন ভর্তি তথ্য ও ফরম →' : 'Online Admission Info →'}</span>
                 </Link>
@@ -165,13 +165,13 @@ export function Footer({ locale }: FooterProps) {
           </div>
 
           {/* Column 4: Contact & Office Hours */}
-          <div className="space-y-4">
-            <h4 className="text-sm font-bold text-[#0B2917] dark:text-white uppercase tracking-wider mb-4 flex items-center gap-2">
-              <IslamicStar size={14} className="text-[#087A35] dark:text-[#4ADE80]" />
+          <div className="col-span-2 md:col-span-1 space-y-4 pt-2 md:pt-0">
+            <h4 className="text-xs sm:text-sm font-bold text-[#0B2917] dark:text-white uppercase tracking-wider mb-3 sm:mb-4 flex items-center gap-1.5 sm:gap-2">
+              <IslamicStar size={14} className="text-[#087A35] dark:text-[#4ADE80] shrink-0" />
               <span>{locale === 'bn' ? 'যোগাযোগের তথ্য' : 'Contact Information'}</span>
             </h4>
 
-            <div className="space-y-3 text-sm text-[#385E46] dark:text-[#A7C8B3]">
+            <div className="space-y-3 text-xs sm:text-sm text-[#385E46] dark:text-[#A7C8B3]">
               <div className="flex items-start gap-2.5">
                 <MapPin className="w-4 h-4 text-[#087A35] dark:text-[#4ADE80] shrink-0 mt-0.5" />
                 <span>{siteConfig.fullAddress[locale]}</span>

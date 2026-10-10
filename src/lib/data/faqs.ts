@@ -9,7 +9,7 @@ export const faqsData: FAQItem[] = [
       en: 'Which classes are open for admission at Lalmonirhat Model Madrasa?',
     },
     answer: {
-      bn: 'আমাদের নূরানী একাডেমি শাখায় প্লে গ্রুপ (Play Group), নার্সারি (Nursery), এবং ১ম শ্রেণি থেকে ৫ম শ্রেণি পর্যন্ত ছাত্র ও ছাত্রী ভর্তি করা হয়। পরবর্তীতে পর্যায়ক্রমে আলিয়া নেসাবের ৬ষ্ঠ থেকে ১০ম শ্রেণি চালু করা হবে।',
+      bn: 'আমাদের নূরানী একাডেমি শাখায় প্লে গ্রুপ, নার্সারি এবং ১ম শ্রেণি থেকে ৫ম শ্রেণি পর্যন্ত ছাত্র ও ছাত্রী ভর্তি করা হয়। পরবর্তীতে পর্যায়ক্রমে আলিয়া নেসাবের ৬ষ্ঠ থেকে ১০ম শ্রেণি চালু করা হবে।',
       en: 'Our Nurani Academy admits both boys and girls for Play Group, Nursery, and Classes 1 through 5. Higher secondary grades (Classes 6 to 10 in Aliya section) will be expanded progressively.',
     },
   },
