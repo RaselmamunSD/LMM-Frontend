@@ -205,12 +205,27 @@ export function Footer({ locale }: FooterProps) {
           </div>
         </div>
 
-        {/* Bottom Bar: Copyright, Links, Back to top */}
-        <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-[#4A725A] dark:text-[#8EAE99]">
-          <div className="flex items-center gap-1 text-center sm:text-left">
+        {/* Bottom Bar: Copyright, Developer Credit, Links, Back to top */}
+        <div className="pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-[#4A725A] dark:text-[#8EAE99]">
+          <div className="flex flex-col sm:flex-row items-center gap-1.5 sm:gap-2.5 text-center sm:text-left">
             <span>© 2026 {siteConfig.name[locale]}।</span>
-            <span className="hidden sm:inline">
-              {locale === 'bn' ? 'সর্বস্বত্ব সংরক্ষিত।' : 'All rights reserved.'}
+            <span className="hidden sm:inline text-[#A7C8B3] dark:text-[#1E3E2A]">|</span>
+            <span className="flex items-center gap-1">
+              <span>Developed by</span>
+              <a
+                href="tel:01738060329"
+                className="font-bold text-[#087A35] dark:text-[#4ADE80] hover:underline"
+                title="Call HigzenDev: 01738060329"
+              >
+                HigzenDev
+              </a>
+              <span className="text-neutral-400 dark:text-neutral-500">•</span>
+              <a
+                href="tel:01738060329"
+                className="font-medium text-[#244B33] dark:text-[#A7C8B3] hover:text-[#087A35] dark:hover:text-[#4ADE80] hover:underline"
+              >
+                01738060329
+              </a>
             </span>
           </div>
 
