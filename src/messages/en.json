@@ -1,0 +1,160 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "programs": "Academic Programs",
+    "curriculum": "Curriculum",
+    "teachers": "Teachers",
+    "facilities": "Facilities",
+    "notices": "Notice Board",
+    "events": "Events",
+    "gallery": "Gallery",
+    "admission": "Admission",
+    "contact": "Contact Us",
+    "faq": "FAQ",
+    "applyNow": "Apply for Admission",
+    "explorePrograms": "Explore Programs"
+  },
+  "common": {
+    "learnMore": "Learn More",
+    "readMore": "Read More",
+    "viewAll": "View All",
+    "backToHome": "Back to Home",
+    "downloadPdf": "Download PDF",
+    "searchPlaceholder": "Search notices, news...",
+    "allCategories": "All Categories",
+    "submit": "Submit Application",
+    "submitting": "Submitting...",
+    "success": "Application Received Successfully",
+    "error": "An unexpected error occurred",
+    "phone": "Phone Number",
+    "email": "Email Address",
+    "address": "Address",
+    "hours": "Office Hours",
+    "close": "Close",
+    "backToTop": "Back to Top",
+    "details": "Details",
+    "overview": "Overview",
+    "keyFeatures": "Key Features",
+    "duration": "Duration",
+    "ageLimit": "Age Eligibility",
+    "curriculumSubjects": "Subjects Taught",
+    "objectives": "Learning Objectives",
+    "outcomes": "Learning Outcomes",
+    "requirements": "Admission Requirements",
+    "applyOnline": "Apply Online Now",
+    "downloadForm": "Download Form"
+  },
+  "hero": {
+    "badge": "Admissions Open for Academic Year 2026",
+    "bismillah": "Bismillahir Rahmanir Raheem",
+    "titlePrefix": "Nurturing Future Leaders with",
+    "titleHighlight": "Lalmonirhat Model Madrasa",
+    "titleSuffix": "Nurani Academy",
+    "subtitle": "A harmonious blend of Quranic fluency, Sunnah morals, and National Curriculum academic excellence from Play Group to Class Five.",
+    "ctaApply": "Apply for Admission",
+    "ctaPrograms": "Academic Programs",
+    "quickInfoTitle": "Why Choose Our Madrasa?",
+    "tag1": "Play to Class 5",
+    "tag2": "Noorani & Quran Hifz",
+    "tag3": "Arabic & English",
+    "tag4": "Moral Character"
+  },
+  "quickCards": {
+    "card1Title": "Play Group to Class 5",
+    "card1Desc": "Child-centric, affectionate, and stress-free foundational primary education.",
+    "card2Title": "Quranic & Noorani Studies",
+    "card2Desc": "Flawless Tajweed phonetics, Nazera fluency, and essential Surah memorization.",
+    "card3Title": "Arabic & English Communication",
+    "card3Desc": "Nurturing articulate pronunciation, rich vocabulary, and everyday spoken confidence.",
+    "card4Title": "Standard General Academics",
+    "card4Desc": "Comprehensive NCTB-aligned Bengali, English, Mathematics, and General Science."
+  },
+  "welcome": {
+    "badge": "Message from the Principal",
+    "title": "Welcome from the Principal’s Desk",
+    "quote": "Illuminating young hearts with the light of the Holy Quran and noble prophetic character is our sacred mission.",
+    "messageP1": "In the name of Allah, the Most Gracious, the Most Merciful. On behalf of Lalmonirhat Model Madrasa (Nurani Academy), I extend our warmest greetings.",
+    "messageP2": "Our core aim is to cultivate unwavering faith in Tawheed, deep love for the Sunnah of Prophet Muhammad (PBUH), and upright moral integrity in our children from their earliest years. Simultaneously, we prepare them to excel in modern sciences, language, and technology.",
+    "messageP3": "The collaborative dedication of our parents and faculty has turned this institution into a beacon of educational excellence. May Allah accept our endeavors.",
+    "name": "Mawlana Muhammad Abdur Rahman",
+    "role": "Principal & Head Teacher"
+  },
+  "aboutSection": {
+    "badge": "About Our Madrasa",
+    "title": "A Harmonious Blend of Islamic Faith & Academic Rigor",
+    "subtitle": "Established in 2023, serving the Sadar Lalmonirhat community with dedicated Quranic grounding and high-standard primary academics.",
+    "historyTitle": "History & Establishment",
+    "historyDesc": "Lalmonirhat Model Madrasa was founded in 2023 in response to the community's desire for a disciplined, values-based institution. Starting with its vibrant Nurani Academy from Play Group to Class Five, it has quickly grown into a trusted sanctuary of learning.",
+    "missionTitle": "Our Mission",
+    "missionDesc": "To educate and empower young minds grounded in the Holy Quran and Sunnah, enriched with moral character, patriotism, and modern scientific competence.",
+    "visionTitle": "Our Vision",
+    "visionDesc": "To emerge as the premier model Islamic primary institution in the northern region, guiding every student toward triumph in this life and the hereafter.",
+    "valuesTitle": "Core Islamic Values",
+    "value1": "God-Consciousness & Sincerity (Taqwa & Ikhlas)",
+    "value2": "Exemplary Moral Character (Husnul Khuluq)",
+    "value3": "Discipline & Punctuality",
+    "value4": "Reverence for Parents & Teachers"
+  },
+  "programsSection": {
+    "badge": "Grade-Level Offerings",
+    "title": "Academic Programs from Play Group to Class Five",
+    "subtitle": "Carefully structured curricula tailored to each developmental milestone, balancing sacred Islamic learning with modern primary standards."
+  },
+  "whyUs": {
+    "badge": "Why Choose Us",
+    "title": "Why Lalmonirhat Model Madrasa is the Right Choice",
+    "subtitle": "Discover our unique institutional advantages and commitment to your child's holistic development.",
+    "p1Title": "Harmonious Dual Curriculum",
+    "p1Desc": "Seamlessly integrates Quran Nazera and Hifz with top-tier NCTB primary academic subjects.",
+    "p2Title": "Qualified & Caring Educators",
+    "p2Desc": "Certified Qaris, seasoned Islamic scholars, and experienced subject-specialist mentors.",
+    "p3Title": "Authentic Tajweed & Makhaarij",
+    "p3Desc": "Rigorous Noorani phonetic methodology ensuring 100% accurate and melodious Quran recitation.",
+    "p4Title": "Safe & Hygienic Campus",
+    "p4Desc": "24/7 CCTV surveillance, secured entry gates, ultra-purified drinking water, and clean spaces.",
+    "p5Title": "Practical Sunnah & Prayer Practice",
+    "p5Desc": "Daily supervised congregational Dhuhr prayer, hands-on Wudhu instruction, and routine Duas.",
+    "p6Title": "Limited Class Sizes & Individual Attention",
+    "p6Desc": "Strict student-teacher ratio guaranteeing close supervision and tailored guidance for every child."
+  },
+  "quranSection": {
+    "badge": "Quranic Foundation",
+    "title": "Instilling the Light of Quran & Tajweed",
+    "subtitle": "From foundational Noorani Qaida to full Quran Nazera and selected Surah memorization."
+  },
+  "noticesSection": {
+    "badge": "Announcements & Circulars",
+    "title": "Latest Madrasa Notices",
+    "subtitle": "Stay updated with official schedules, exam dates, holiday calendars, and administrative news."
+  },
+  "eventsSection": {
+    "badge": "Events & Activities",
+    "title": "Upcoming & Memorable Past Events",
+    "subtitle": "Relive our annual sports, Quran recitation assemblies, and educational milestones."
+  },
+  "gallerySection": {
+    "badge": "Photo Gallery",
+    "title": "Joyful Moments of Campus Life",
+    "subtitle": "Explore snapshots of our classrooms, Quran sessions, athletic events, and campus life."
+  },
+  "admissionSection": {
+    "badge": "Admissions 2026",
+    "title": "Start Your Child’s Journey to Excellence Today",
+    "subtitle": "Limited seats available for Play Group, Nursery, and Classes One through Five."
+  },
+  "testimonialsSection": {
+    "badge": "Parent Reflections",
+    "title": "What Our Respected Guardians Say",
+    "subtitle": "Real experiences highlighting the noticeable growth in our students’ knowledge and moral manners."
+  },
+  "footer": {
+    "desc": "Lalmonirhat Model Madrasa (Nurani Academy) - An exemplary Islamic primary school offering Play Group to Class Five with authentic Quranic education, Sunnah values, and modern academic excellence.",
+    "quickLinks": "Quick Links",
+    "academicLinks": "Academic Classes",
+    "contactInfo": "Contact Details",
+    "rights": "All Rights Reserved. Lalmonirhat Model Madrasa.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use"
+  }
+}

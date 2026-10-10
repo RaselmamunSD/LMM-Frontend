@@ -1,0 +1,177 @@
+@import "tailwindcss";
+
+@variant dark (&:where(.dark, .dark *));
+
+:root {
+  /* Main Background: Pure White */
+  --background: #FFFFFF;
+  --foreground: #171717;
+  
+  /* Primary Theme Colors */
+  --brand-black: #050505;
+  --primary: #8B1E24; /* Deep Maroon: primary buttons, active links, icons, highlights */
+  --primary-hover: #73181D;
+  --primary-dark: #5C1317;
+  
+  /* Accents */
+  --accent-maroon: #8B1E24;
+  --accent-burgundy: #A52A2A; /* Burgundy Red */
+  
+  /* Surfaces */
+  --surface: #FFFFFF;
+  --surface-alt: #F7F7F7; /* Secondary Background: Off-White */
+  --surface-subtle: #FAFAFA;
+  --card-bg: #FFFFFF;
+  --card-border: #E5E5E5;
+  --card-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.05);
+  
+  /* Typography */
+  --text-primary: #171717; /* Charcoal Black */
+  --text-secondary: #666666; /* Gray */
+  --text-muted: #888888;
+  
+  /* Borders & Badges */
+  --border-color: #E5E5E5; /* Light Gray */
+  --badge-bg: #FDF2F2;
+  --badge-text: #8B1E24;
+}
+
+.dark {
+  /* Dark Theme Background */
+  --background: #111111;
+  --foreground: #F5F5F5;
+  
+  /* Primary Theme Colors in Dark */
+  --brand-black: #0A0A0A;
+  --primary: #C75B60; /* Dark Theme Accent: #C75B60 */
+  --primary-hover: #D66D72;
+  --primary-dark: #8B1E24;
+  
+  /* Accents */
+  --accent-maroon: #8B1E24;
+  --accent-burgundy: #C75B60;
+  
+  /* Dark Surfaces */
+  --surface: #1C1C1C; /* Dark Theme Surface */
+  --surface-alt: #161616;
+  --surface-subtle: #222222;
+  --card-bg: #1C1C1C; /* Dark Theme Surface */
+  --card-border: #2A2A2A;
+  --card-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.6);
+  
+  /* Dark Typography */
+  --text-primary: #F5F5F5; /* Dark Theme Text */
+  --text-secondary: #A0A0A0;
+  --text-muted: #737373;
+  
+  /* Dark Borders & Badges */
+  --border-color: #262626;
+  --badge-bg: #2A1416;
+  --badge-text: #E58B8F;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-primary-hover: var(--primary-hover);
+  --color-primary-dark: var(--primary-dark);
+  --color-brand-black: var(--brand-black);
+  --color-accent-maroon: var(--accent-maroon);
+  --color-accent-burgundy: var(--accent-burgundy);
+  --color-surface: var(--surface);
+  --color-surface-alt: var(--surface-alt);
+  --color-surface-subtle: var(--surface-subtle);
+  --color-card-bg: var(--card-bg);
+  --color-card-border: var(--card-border);
+  --color-card-shadow: var(--card-shadow);
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-text-muted: var(--text-muted);
+  --color-border-color: var(--border-color);
+  --color-badge-bg: var(--badge-bg);
+  --color-badge-text: var(--badge-text);
+  
+  --font-bangla: var(--font-hind-siliguri), 'Hind Siliguri', 'Noto Sans Bengali', sans-serif;
+  --font-english: var(--font-plus-jakarta), 'Plus Jakarta Sans', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--text-primary);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+}
+
+/* Islamic Geometric Subtle Background */
+.islamic-pattern-bg {
+  background-image: radial-gradient(rgba(139, 30, 36, 0.08) 1.2px, transparent 1.2px);
+  background-size: 24px 24px;
+}
+
+.dark .islamic-pattern-bg {
+  background-image: radial-gradient(rgba(199, 91, 96, 0.1) 1.2px, transparent 1.2px);
+  background-size: 28px 28px;
+}
+
+/* Card subtle top rim accent and smooth elevation */
+.card-glow {
+  position: relative;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.card-glow:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px -4px rgba(0, 0, 0, 0.08), 0 0 0 1px rgba(139, 30, 36, 0.2);
+}
+
+.card-glow::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 15%;
+  right: 15%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, rgba(139, 30, 36, 0.35), transparent);
+  border-radius: 9999px;
+  pointer-events: none;
+}
+
+.dark .card-glow {
+  box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.6);
+}
+
+.dark .card-glow:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 15px 35px -5px rgba(0, 0, 0, 0.8), 0 0 0 1px rgba(199, 91, 96, 0.3);
+  border-color: rgba(199, 91, 96, 0.4);
+}
+
+.dark .card-glow::before {
+  background: linear-gradient(90deg, transparent, rgba(199, 91, 96, 0.4), transparent);
+}
+
+/* Custom Clean Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(139, 30, 36, 0.25);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(139, 30, 36, 0.5);
+}
+.dark ::-webkit-scrollbar-thumb {
+  background: rgba(199, 91, 96, 0.25);
+}
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: rgba(199, 91, 96, 0.5);
+}
