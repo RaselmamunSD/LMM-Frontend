@@ -9,6 +9,7 @@ import { siteConfig } from '@/lib/data/site-config';
 import { LanguageSwitcher } from './LanguageSwitcher';
 import { ThemeToggle } from '../common/ThemeToggle';
 import { MobileNavigation } from './MobileNavigation';
+import { NoticeTicker } from './NoticeTicker';
 import {
   Phone,
   Mail,
@@ -322,6 +323,9 @@ export function Header({ locale }: HeaderProps) {
           </div>
         </div>
       </header>
+
+      {/* Notice Bar - Continuous Smooth Ticker below Navbar */}
+      <NoticeTicker locale={locale} />
 
       {/* Mobile Drawer Navigation */}
       <MobileNavigation
