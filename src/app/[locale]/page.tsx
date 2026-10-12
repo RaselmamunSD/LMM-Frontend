@@ -33,7 +33,25 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       ? 'লালমনিরহাট মডেল মাদ্রাসা (নূরানী একাডেমি) - প্লে থেকে ৫ম শ্রেণি পর্যন্ত কুরআন হিফজ, সহীহ তাজবীদ ও উন্নত সাধারণ শিক্ষার নির্ভরযোগ্য প্রতিষ্ঠান।'
       : 'Lalmonirhat Model Madrasa (Nurani Academy) - Leading Islamic primary institution from Play Group to Class Five in Sadar, Lalmonirhat.',
     openGraph: {
-      title: `${siteConfig.name[locale]} - ${siteConfig.subtitle[locale]}`,
+      title: `${siteConfig.name[locale]} | ${siteConfig.subtitle[locale]}`,
+      description: siteConfig.tagline[locale],
+      url: `https://lalmonirhatmodelmadrasa.edu.bd/${locale}`,
+      siteName: siteConfig.name[locale],
+      locale: isBn ? 'bn_BD' : 'en_US',
+      type: 'website',
+      images: [
+        {
+          url: '/images/logo.jpg',
+          width: 640,
+          height: 640,
+          alt: `${siteConfig.name[locale]} Logo`,
+          type: 'image/jpeg',
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary',
+      title: `${siteConfig.name[locale]} | ${siteConfig.subtitle[locale]}`,
       description: siteConfig.tagline[locale],
       images: ['/images/logo.jpg'],
     },

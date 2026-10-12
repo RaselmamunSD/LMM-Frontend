@@ -25,9 +25,47 @@ export const metadata: Metadata = {
   },
   description:
     'প্লে গ্রুপ থেকে ৫ম শ্রেণি পর্যন্ত কুরআন হিফজ, সহীহ তাজবীদ ও উন্নত সাধারণ শিক্ষার সমন্বিত প্রতিষ্ঠান। সদর, লালমনিরহাট।',
+  applicationName: 'লালমনিরহাট মডেল মাদ্রাসা',
+  authors: [{ name: 'লালমনিরহাট মডেল মাদ্রাসা' }],
+  creator: 'লালমনিরহাট মডেল মাদ্রাসা',
+  publisher: 'লালমনিরহাট মডেল মাদ্রাসা',
   icons: {
-    icon: '/images/logo.jpg',
-    apple: '/images/logo.jpg',
+    icon: [
+      { url: '/favicon.ico', sizes: 'any' },
+      { url: '/icon.png', type: 'image/png', sizes: '192x192' },
+      { url: '/images/logo.jpg', type: 'image/jpeg', sizes: '640x640' },
+    ],
+    shortcut: '/favicon.ico',
+    apple: [
+      { url: '/apple-icon.png', sizes: '180x180', type: 'image/png' },
+      { url: '/images/logo.jpg', sizes: '180x180', type: 'image/jpeg' },
+    ],
+  },
+  openGraph: {
+    type: 'website',
+    locale: 'bn_BD',
+    alternateLocale: ['en_US'],
+    url: 'https://lalmonirhatmodelmadrasa.edu.bd',
+    siteName: 'লালমনিরহাট মডেল মাদ্রাসা (নূরানী একাডেমি)',
+    title: 'লালমনিরহাট মডেল মাদ্রাসা | Lalmonirhat Model Madrasa',
+    description:
+      'প্লে গ্রুপ থেকে ৫ম শ্রেণি পর্যন্ত কুরআন হিফজ, সহীহ তাজবীদ ও উন্নত সাধারণ শিক্ষার সমন্বিত দ্বীনি শিক্ষা প্রতিষ্ঠান। সদর, লালমনিরহাট।',
+    images: [
+      {
+        url: '/images/logo.jpg',
+        width: 640,
+        height: 640,
+        alt: 'লালমনিরহাট মডেল মাদ্রাসা লোগো',
+        type: 'image/jpeg',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary',
+    title: 'লালমনিরহাট মডেল মাদ্রাসা (নূরানী একাডেমি)',
+    description:
+      'কুরআনের আলো, নৈতিক চরিত্র ও যুগোপযোগী আধুনিক শিক্ষার সমন্বিত প্রতিষ্ঠান। সদর, লালমনিরহাট।',
+    images: ['/images/logo.jpg'],
   },
 };
 
